@@ -1,0 +1,51 @@
+.purple{
+    color: purple;
+    font-size: 50px;
+}
+
+li {
+    background-color: #B10DC9;
+  }
+  
+  .highlight {
+    background-color: #7FDBFF;
+  }
+
+  .pokemon {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .pokemon img {
+    display: block;
+    transition: all 1s;
+  }
+
+  .pokemon img:hover{
+    transform: rotate(360deg);
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .pokemon .span1{
+    display: none;
+  }
+
+  .pokemon:hover .span{
+    display: none;
+  }
+
+  .pokemon:hover .span1{
+    display: inline;
+  }
+
+.sp2{
+    display: none;
+}
+#tutup:hover .sp1{
+    display : none;
+}
+
+#tutup:hover .sp2{
+    display: inline;
+}
