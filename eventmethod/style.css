@@ -1,0 +1,14 @@
+.judul {
+    text-align: center;
+}
+
+#color {
+    margin: auto;
+    display: block;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
